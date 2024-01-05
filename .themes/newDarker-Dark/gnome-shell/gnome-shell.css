@@ -2652,8 +2652,7 @@ StEntry StLabel.hint-text {
   color: #dedede;
   background-color: #1f1f1f;
   border-radius: 12px;
-  border: solid rgba(0, 0, 0, 0.75);
-  border-width: 1px;
+
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25);
   padding: 8px;
 }
@@ -3399,13 +3398,12 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 /* App Switcher */
 .switcher-popup {
-  padding: 8px;
-  spacing: 16px;
+  background-color: transparent !important;
 }
 
 .switcher-list .item-box {
   padding: 8px;
-  border-radius: 6px;
+  border-radius: 15px;
   border: 1px solid transparent;
 }
 
@@ -3415,7 +3413,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .switcher-list .item-box:selected {
-  background-color: #0860F2;
+  background-color: #444444;
   color: rgba(255, 255, 255, 0.85);
 }
 
